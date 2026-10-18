@@ -1,0 +1,9 @@
+# Tested with tensorflow 2.19.1. tensorflow 2.20 aborts on import on macOS when pyarrow (a streamlit dependency) is installed (tensorflow/tensorflow#98563); the saved .keras model needs Keras 3 (tensorflow>=2.16).
+tensorflow>=2.16,<2.20
+streamlit
+pillow
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
